@@ -24,7 +24,7 @@ main {
     border: .2px solid rgba(204, 204, 204, 0.432);
 }
 
-.botao-form{
+.botao-form {
     background: #2A7AE4;
     color: #FFFFFF;
     border: none;
@@ -80,6 +80,7 @@ main {
         width: 360px;
         height: 70px;
     }
+
     .botao-form {
         width: 360px;
         height: 70px;
