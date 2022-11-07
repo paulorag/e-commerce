@@ -1,0 +1,65 @@
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.topo_btnlogin {
+    font-weight: 600;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 0) {
+    .topo {
+        padding: 1em;
+    }
+
+    .topo_logo {
+        width: 100px;
+        height: 28px;
+    }
+
+    .topo_btnlogin {
+        padding: .7em 2.8em;
+    }
+
+    .topo_search {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .topo {
+        padding: 1em 2em;
+    }
+
+    .topo_logo {
+        width: 140px;
+        height: 40px;
+    }
+
+    .topo_btnlogin {
+        padding: .7em 2.8em;
+    }
+
+    .topo_search {
+        display: block;
+        color: rgb(172, 172, 172);
+        background: #F5F5F5;
+        padding: 1em 3em;
+        font-size: 1.2em;
+    }
+
+    .topo_lupa {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .topo {
+        padding: 2em 9.5em;
+    }
+}
