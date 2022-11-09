@@ -3,6 +3,51 @@
 body {
     font-family: 'Raleway', sans-serif;
     width: 100vw;
-    background-color: #F5F5F5;
-    ;
+    background-color: var(--bg-color);
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-color: #ebebeb;
+    --input-placeholder: #d4d4d4;
+    --input-bg: #efefef;
+    --texto-destaque: #FFFF;
+    --azul-destaque: #2a7ae4;
+    --bg-contato: #Eaf2fd;
+}
+
+textarea:focus,
+input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--input-placeholder);
+    padding: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--azul-destaque);
+    font-weight: 800;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Header Geral */
+
+
+header {
+    padding: 32.5px 154px;
+    background-color: var(--texto-destaque);
+}
+
+nav {
+    display: flex;
+    align-items: center;
 }

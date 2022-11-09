@@ -16,179 +16,235 @@
 
 <body>
     <header>
-        <div class="topo">
-            <img class="topo_logo" src="assets/img/logo.png" alt="Logo alura Geek">
-            <p class="topo_search">O que deseja buscar? &#x1F50D;</p>
-            <a class="topo_btnlogin" href="pages/login.html">Login</a>
-            <img class="topo_lupa" src="assets/img/icon.png" alt="Icone de lupa">
-        </div>
-        <div class="hero">
-            <div class="hero__box">
-                <h1 class="hero__titulo">Dezembro Promocional</h1>
-                <p class="hero__texto">Produtos selecionados com 33% de desconto</p>
-                <button class="hero__botao">Ver Consoles</button>
+        <nav>
+            <div class="logo-busca">
+                <div class="logo"><img src="assets/img/logo.png" alt="logo">
+                    <p class="logo-azul">Alura</p>
+                    <p>Geek</p>
+                </div>
+                <input i type="text" placeholder="O que desejo encontrar?">
             </div>
-        </div>
+            <div class="login">
+                <a href="pages/login.html"><button type="submit">Login</button></a>
+            </div>
+            <img class="lupa-mobile" src="assets/img/lupa2.png" alt="lupa">
+        </nav>
     </header>
-    <main>
-        <section class="produto_lista">
-            <div class="produto_topo">
-                <h2>Star Wars</h2>
-                <a href="pages/produtos.html">Ver tudo &#x27A1;</a>
+
+    <section class="destaque">
+        <div class="banner">
+            <h1>Abril Promocional</h1>
+            <h4>Produtos selecionados com 33% de desconto</h4>
+            <button>Ver Consoles</button>
+        </div>
+    </section>
+
+    <section class="geral-prods">
+        <div class="prod-titulo">
+            <div class="titulo">
+                <p>Star Wars</p>
             </div>
-            <div class="produtos">
-                <div class="produto">
-                    <img class="produto_imagem" src="assets/img/caneca_stormtrooper.png"
-                        alt="Caneca com o formato da cabeça do Stormtrooper">
-                    <h3 class="produto_titulo">Caneca Star Wars - Stormtrooper</h3>
-                    <span class="produto_preco">R$60,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto">
-                    <img class="produto_imagem" src="assets/img/figure_darthVader.png" alt="Figure do Darth Vader">
-                    <h3 class="produto_titulo">Figure Star Wars - Darth Vader</h3>
-                    <span class="produto_preco">R$60,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto">
-                    <img class="produto_imagem" src="assets/img/actionFigure_yoda.png"
-                        alt="Action Figure do Mestre Yoda">
-                    <h3 class="produto_titulo">Action Figure Star Wars - Mestre Yoda</h3>
-                    <span class="produto_preco">R$60,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto">
-                    <img class="produto_imagem" src="assets/img/actionFigure_stormtrooper.png"
-                        alt="Figure do Stormtrooper">
-                    <h3 class="produto_titulo">Action Figure Star Wars - Stormtrooper</h3>
-                    <span class="produto_preco">R$60,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto desktop">
-                    <img class="produto_imagem" src="assets/img/figure_yoda.png" alt="Figure Mestre Yoda">
-                    <h3 class="produto_titulo">Figure Star Wars - Mestre Yoda</h3>
-                    <span class="produto_preco">R$60,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto desktop">
-                    <img class="produto_imagem" src="assets/img/actionFigure_KyloRen.png" alt="Action Figure Kylo Ren">
-                    <h3 class="produto_titulo">Action Figure Star Wars - Kylo Ren</h3>
-                    <span class="produto_preco">R$60,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-            </div>
-        </section>
-        <section class="produto_lista">
-            <div class="produto_topo">
-                <h2>Consoles</h2>
-                <a href="telas/produtos.html">Ver tudo &#x27A1;</a>
-            </div>
-            <div class="produtos">
-                <div class="produto">
-                    <img class="produto_imagem" src="assets/img/controle_xbox.png" alt="Controle do Xbox series S/X">
-                    <h3 class="produto_titulo">Controle do Xbox series S/X</h3>
-                    <span class="produto_preco">R$300,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto">
-                    <img class="produto_imagem" src="assets/img/console_ps5.png" alt="Console Playstation 5">
-                    <h3 class="produto_titulo">Console Playstation 5</h3>
-                    <span class="produto_preco">R$5000,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto">
-                    <img class="produto_imagem" src="assets/img/console_nes.png" alt="Console NES">
-                    <h3 class="produto_titulo">Console NES</h3>
-                    <span class="produto_preco">R$800,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto">
-                    <img class="produto_imagem" src="assets/img/controle_swtich.png" alt="Controle Nintendo Switch">
-                    <h3 class="produto_titulo">Controle Nintendo Switch</h3>
-                    <span class="produto_preco">R$300,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto desktop">
-                    <img class="produto_imagem" src="assets/img/console_xbox.png" alt="Console Xbox Series X">
-                    <h3 class="produto_titulo">Console Xbox Series X</h3>
-                    <span class="produto_preco">R$5000,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto desktop">
-                    <img class="produto_imagem" src="assets/img/console_gameBoy.png" alt="Console GameBoy Color">
-                    <h3 class="produto_titulo">Console GameBoy Color</h3>
-                    <span class="produto_preco">R$500,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-            </div>
-        </section>
-        <section class="produto_lista">
-            <div class="produto_topo">
-                <h2>Diversos</h2>
-                <a href="telas/produtos.html">Ver tudo &#x27A1;</a>
-            </div>
-            <div class="produtos">
-                <div class="produto">
-                    <img class="produto_imagem" src="assets/img/camisa_atari.png" alt="Camisa Atari">
-                    <h3 class="produto_titulo">Camisa Atari</h3>
-                    <span class="produto_preco">R$60,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto">
-                    <img class="produto_imagem" src="assets/img/camisa_consoleNES.png" alt="Camisa NES">
-                    <h3 class="produto_titulo">Camisa NES</h3>
-                    <span class="produto_preco">R$60,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto">
-                    <img class="produto_imagem" src="assets/img/actionFigure_sonic.png" alt="Action Figure do Sonic">
-                    <h3 class="produto_titulo">Action Figure - Sonic</h3>
-                    <span class="produto_preco">R$60,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto">
-                    <img class="produto_imagem" src="assets/img/radio.png" alt="Figure do Stormtrooper">
-                    <h3 class="produto_titulo">Radio</h3>
-                    <span class="produto_preco">R$70,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto desktop">
-                    <img class="produto_imagem" src="assets/img/console_vr.png" alt="Óculos VR">
-                    <h3 class="produto_titulo">Óculos VR</h3>
-                    <span class="produto_preco">R$2000,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-                <div class="produto desktop">
-                    <img class="produto_imagem" src="assets/img/fantasia_pikachu.png" alt="Fantasia do Pikachu">
-                    <h3 class="produto_titulo">Fantasia do Pikachu</h3>
-                    <span class="produto_preco">R$200,00</span>
-                    <a class="produto_link" href="#">Ver Produto</a>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer">
-            <div class="conteudo">
-                <div class="bloco">
-                    <img class="logo" src="assets/img/logo.png" alt="Logo Alura Geek">
-                    <ul class="links">
-                        <li class="links_item">Quem somos nós</li>
-                        <li class="links_item">Política de privacidade</li>
-                        <li class="links_item">Programa fidelidade</li>
-                        <li class="links_item">Nossas lojas</li>
-                        <li class="links_item">Quero ser franqueado</li>
-                        <li class="links_item">Anuncie aqui</li>
-                    </ul>
-                </div>
-                <form class="contato" action="">
-                    <legend class="contato_titulo">Fale conosco</legend>
-                    <input class="nome" type="text" name="nome" id="nome" placeholder="Nome">
-                    <input class="mensagem" type="text" name="text" id="texto" placeholder="Escreva sua mensagem">
-                    <input class="botao" type="button" value="Enviar Mensagem">
-                </form>
+            <div class="mostrar-mais">
+                <a href="pages/produtos.html">Ver Tudo <img src="assets/img/Vector.png" alt="seta"></a>
             </div>
         </div>
+        <section class="sessao-produtos">
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/caneca_stormtrooper.png" alt="Caneca com o formato da cabeça do Stormtrooper">
+                    <p class="descrição">Caneca Star Wars - Stormtrooper</p>
+                    <p class="preco">60,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/figure_darthVader.png" alt="Figure do Darth Vader">
+                    <p class="descrição">Figure Star Wars - Darth Vader</p>
+                    <p class="preco">60,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/actionFigure_yoda.png" alt="Action Figure do Mestre Yoda">
+                    <p class="descrição">Action Figure Star Wars - Mestre Yoda</p>
+                    <p class="preco">60,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/actionFigure_stormtrooper.png" alt="Figure do Stormtrooper">
+                    <p class="descrição"></p>Action Figure Star Wars - Stormtrooper</p>
+                    <p class="preco">60,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/figure_yoda.png" alt="Figure Baby Yoda">
+                    <p class="descrição">Figure Star Wars - Baby Yoda</p>
+                    <p class="preco">60,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/actionFigure_KyloRen.png" alt="Action Figure Kylo Ren">
+                    <p class="descrição">Action Figure Star Wars - Kylo Ren</p>
+                    <p class="preco">60,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="prod-titulo">
+            <div class="titulo">
+                <p>Consoles</p>
+            </div>
+            <div class="mostrar-mais">
+                <a href="pages/produtos.html">Ver Tudo <img src="assets/img/Vector.png" alt="seta"></a>
+            </div>
+        </div>
+        <section class="sessao-produtos">
+
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/controle_xbox.png" alt="Controle do Xbox series S/X">
+                    <p class="descrição">Controle do Xbox series S/X</p>
+                    <p class="preco">300,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/console_ps5.png" alt="ps5">
+                    <p class="descrição">Console Playstation 5</p>
+                    <p class="preco">5000,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/console_nes.png" alt="snes">
+                    <p class="descrição">Console NES</p>
+                    <p class="preco">800,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/controle_swtich.png" alt="switch">
+                    <p class="descrição">Controle Nintendo Switch</p>
+                    <p class="preco">300,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/console_xbox.png" alt="Console Xbox Series X">
+                    <p class="descrição">Console Xbox Series X</p>
+                    <p class="preco">5000,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/console_gameBoy.png" alt="Console GameBoy Color">
+                    <p class="descrição">Console GameBoy Color</p>
+                    <p class="preco">500,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="prod-titulo">
+            <div class="titulo">
+                <p>Diversos</p>
+            </div>
+            <div class="mostrar-mais">
+                <a href="pages/produtos.html">Ver Tudo <img src="assets/img/Vector.png" alt="seta"></a>
+            </div>
+        </div>
+
+        <section class="sessao-produtos">
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/camisa_atari.png" alt="Camisa Atari">
+                    <p class="descrição">Camisa Atari</p>
+                    <p class="preco">60,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/camisa_consoleNES.png" alt="Camisa NES">
+                    <p class="descrição">Camisa NES</p>
+                    <p class="preco">60,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/actionFigure_sonic.png" alt="Action Figure do Sonic">
+                    <p class="descrição">Action Figure do Sonic</p>
+                    <p class="preco">60,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/radio.png" alt="Radio">
+                    <p class="descrição">Radio</p>
+                    <p class="preco">70,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/console_vr.png" alt="Óculos VR">
+                    <p class="descrição">Óculos VR</p>
+                    <p class="preco">2000,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+            <div class="prod-holder">
+                <div class="produto">
+                    <img src="assets/img/fantasia_pikachu.png" alt="Fantasia do Pikachu">
+                    <p class="descrição">Fantasia do Pikachu</p>
+                    <p class="preco">200,00</p>
+                    <a href="#">Ver Produto</a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="contato">
+        <div class="referencia"><img src="assets\logo.png" alt="logo">
+            <p>Alura</p>
+            <p>Geek</p>
+        </div>
+        <div class="links-uteis">
+            <a href="#">Quem somos nós</a>
+            <a href="#">Politica de Privacidade</a>
+            <a href="#">Programa de fidelidade</a>
+            <a href="#">Nossas Lojas</a>
+            <a href="#">Quero ser franqueado</a>
+            <a href="#">Anuncie aqui</a>
+        </div>
+
+        <div class="form">
+            <p>Fale conosco</p>
+            <div class="label-float">
+                <input type="text" name="Nome" id="Nome" class="input-nome" placeholder="">
+                <label for="Nome" class="label-nome">Nome</label>
+            </div>
+            <textarea name="mensagem" id="msg" cols="5" rows="5" placeholder="Escreva sua Mensagem"></textarea>
+            <button>Enviar Mensagem</button>
+        </div>
+    </section>
+    <footer>
         <div class="rodape">
             <p>Desenvolvido por Paulo Roberto &copy;2022</p>
         </div>
