@@ -1,6 +1,6 @@
 .logo-busca {
-    margin-left: 175px;
-    width: 601px;
+    /* margin-left: 175px;
+    width: 601px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,32 +34,14 @@
     padding: 1% 3%;
     border: none;
     background-color: var(--input-bg);
-    background-image: url("../img/lupa.png");
+    background-image: url("../../img/lupa.png");
     background-repeat: no-repeat;
     background-position: right;
     background-position-x: 320px;
 }
 
-.login {
-    width: 600px;
-    display: flex;
-    justify-content: end;
-}
+@media screen and (min-width: 0) {}
 
-.login button {
-    width: 182px;
-    height: 51px;
-    background: none;
-    border: solid 1px var(--azul-destaque);
-    color: var(--azul-destaque);
-    text-transform: uppercase;
-}
+@media screen and (min-width: 768px) {}
 
-.login button:hover {
-    background-color: var(--azul-destaque);
-    color: var(--texto-destaque);
-}
-
-.lupa-mobile{
-    display: none;
-}
+@media screen and (min-width: 1024px) {}

@@ -1,0 +1,40 @@
+/*Sessão de produtos*/
+
+.geral-prods {
+    display: flex;
+    flex-direction: column;
+    width: 1136px;
+    margin: 0 auto;
+}
+
+/*Divs na Sessão Produtos*/
+.sessao-produtos {
+    display: flex;
+}
+
+.prod-titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prod-titulo .titulo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.mostrar-mais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 25px;
+    color: var(--azul-destaque);
+}
+
+.sessao-produtos {
+    height: 306px;
+    width: 1136px;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 64px;
+}
