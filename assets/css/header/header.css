@@ -1,0 +1,159 @@
+header {
+    background-color: var(--texto-destaque);
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    font-weight: bolder;
+}
+
+.logo .logo-azul {
+    color: var(--azul-destaque);
+}
+
+.topo input {
+    display: none;
+}
+
+.login {
+    display: flex;
+    justify-content: end;
+}
+
+.login button {
+    background: none;
+    border: solid 1px var(--azul-destaque);
+    color: var(--azul-destaque);
+    font-weight: 600;
+}
+
+.login button:hover {
+    background-color: var(--azul-destaque);
+    color: var(--texto-destaque);
+}
+
+@media screen and (min-width: 0) {
+    header {
+        padding: 1em;
+    }
+
+    .logo img {
+        height: 15px;
+        width: 22px;
+    }
+
+    .logo p {
+        font-size: 1em;
+    }
+
+    .logo .logo-azul {
+        margin-left: 10px;
+    }
+
+    .login {
+        width: 120px;
+    }
+
+    .login button {
+        width: 120px;
+        height: 35px;
+        font-size: .875em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        padding: 1em 2em;
+    }
+
+    .logo-busca {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo img {
+        height: 18px;
+        width: 25px;
+    }
+
+    .logo p {
+        font-size: 1.2em;
+    }
+
+    .topo input {
+        display: block;
+        margin-left: 10%;
+        width: 275px;
+        height: 30px;
+        border-radius: 30px;
+        padding: .5em 1em;
+        border: none;
+        background-color: var(--input-bg);
+        background-image: url("../../img/lupa.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position-x: 215px;
+        background-size: 1.2em;
+        font-size: .9em;
+    }
+
+    .login {
+        width: 170px;
+    }
+
+    .login button {
+        width: 166px;
+        height: 40px;
+    }
+
+    .lupa-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        padding: 2em 6em;
+    }
+
+    .logo img {
+        height: 15px;
+        width: 22px;
+    }
+
+    .logo p {
+        font-size: 1em;
+    }
+
+    .topo input {
+        margin-left: 10%;
+        width: 393px;
+        height: 40px;
+        border-radius: 30px;
+        padding: 1% 3%;
+        background-position-x: 300px;
+        background-size: 1.2em;
+        font-size: .9em;
+    }
+
+    .login {
+        width: 300px;
+    }
+
+    .login button {
+        width: 200px;
+        height: 40px;
+        font-size: .875em;
+    }
+}

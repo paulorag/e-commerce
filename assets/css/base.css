@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    width: 100vw;
     background-color: var(--bg-color);
     scroll-behavior: smooth;
 }
@@ -37,17 +36,4 @@ a {
 
 button {
     cursor: pointer;
-}
-
-/* Header Geral */
-
-
-header {
-    padding: 32.5px 154px;
-    background-color: var(--texto-destaque);
-}
-
-nav {
-    display: flex;
-    align-items: center;
 }
