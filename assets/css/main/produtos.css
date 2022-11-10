@@ -23,6 +23,16 @@
     color: var(--azul-destaque);
 }
 
+.prod-lista {
+    flex-wrap: wrap;
+}
+
+.mais-produto {
+    background: var(--azul-destaque);
+    color: white;
+    font-weight: 600;
+}
+
 .mostrar-mais a {
     font-weight: 700;
 }
@@ -71,6 +81,12 @@
 
     .mostrar-mais {
         gap: 4px;
+    }
+
+    .mais-produto {
+        padding: .75em 1em;
+        gap: 10px;
+        font-size: 14px;
     }
 
     .mostrar-mais a {
@@ -154,6 +170,12 @@
 
     .prod-titulo .titulo {
         font-size: 32px;
+    }
+
+
+    .mais-produto {
+        padding: 1em;
+        font-size: 16px;
     }
 
     .prod-holder {

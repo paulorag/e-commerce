@@ -9,18 +9,25 @@
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/base.css">
-    <link rel="stylesheet" href="../assets/css/login/login_header.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/main/contato.css">
     <link rel="stylesheet" href="../assets/css/login/login_main.css">
-    <link rel="stylesheet" href="../assets/css/login/login_footer.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
 </head>
 
 <body>
     <header>
-        <div class="topo">
-            <a href="../index.html"><img class="topo_logo" src="../assets/img/logo.png" alt="Logo alura Geek"></a>
-            <p class="topo_search">O que deseja buscar? &#x1F50D;</p>
-            <img class="topo_lupa" src="../assets/img/icon.png" alt="Icone de lupa">
-        </div>
+        <nav class="topo">
+            <div class="logo-busca">
+                <div class="logo">
+                    <a href="../index.html"><img src="../assets/img/logo.png" alt="logo"></a>
+                    <p class="logo-azul">Alura</p>
+                    <p>Geek</p>
+                </div>
+                <input i type="text" placeholder="O que desejo encontrar?">
+            </div>
+            <img class="lupa-mobile" src="../assets/img/lupa2.png" alt="lupa">
+        </nav>
     </header>
     <main>
         <h1 class="titulo">Iniciar Sessão</h1>
@@ -30,29 +37,35 @@
             <input class="botao-form" type="button" value="Entrar">
         </form>
     </main>
-    <footer>
-        <div class="footer">
-            <div class="conteudo">
-                <div class="bloco">
-                    <img class="logo" src="../assets/img/logo.png" alt="Logo Alura Geek">
-                    <ul class="links">
-                        <li class="links_item">Quem somos nós</li>
-                        <li class="links_item">Política de privacidade</li>
-                        <li class="links_item">Programa fidelidade</li>
-                        <li class="links_item">Nossas lojas</li>
-                        <li class="links_item">Quero ser franqueado</li>
-                        <li class="links_item">Anuncie aqui</li>
-                    </ul>
-                </div>
-                <form class="contato" action="">
-                    <legend class="contato_titulo">Fale conosco</legend>
-                    <input class="nome" type="text" name="nome" id="nome" placeholder="Nome">
-                    <input class="mensagem" type="text" name="text" id="texto" placeholder="Escreva sua mensagem">
-                    <input class="botao" type="button" value="Enviar Mensagem">
-                </form>
+    <section class="contato">
+        <div class="esquerda">
+            <div class="referencia">
+                <img src="../assets/img/logo.png" alt="logo">
+                <p class="logo-azul">Alura</p>
+                <p>Geek</p>
+            </div>
+            <div class="links-uteis">
+                <a href="#">Quem somos nós</a>
+                <a href="#">Politica de Privacidade</a>
+                <a href="#">Programa de fidelidade</a>
+                <a href="#">Nossas Lojas</a>
+                <a href="#">Quero ser franqueado</a>
+                <a href="#">Anuncie aqui</a>
             </div>
         </div>
-        <div class="rodape">
+
+        <div class="form">
+            <p>Fale conosco</p>
+            <div class="label-float">
+                <input type="text" name="Nome" id="Nome" class="input-nome" placeholder="">
+                <label for="Nome" class="label-nome">Nome</label>
+            </div>
+            <textarea name="mensagem" id="msg" cols="5" rows="5" placeholder="Escreva sua Mensagem"></textarea>
+            <button>Enviar Mensagem</button>
+        </div>
+    </section>
+    <footer>
+        <div class="copyright">
             <p>Desenvolvido por Paulo Roberto &copy;2022</p>
         </div>
     </footer>
