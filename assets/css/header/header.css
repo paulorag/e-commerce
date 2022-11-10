@@ -48,7 +48,7 @@ header {
     }
 
     .logo img {
-        height: 15px;
+        height: 16px;
         width: 22px;
     }
 
@@ -128,12 +128,12 @@ header {
     }
 
     .logo img {
-        height: 15px;
-        width: 22px;
+        height: 28px;
+        width: 41px;
     }
 
     .logo p {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     .topo input {
@@ -148,7 +148,7 @@ header {
     }
 
     .login {
-        width: 300px;
+        width: 200px;
     }
 
     .login button {

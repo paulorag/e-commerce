@@ -13,6 +13,7 @@ body {
     --texto-destaque: #FFFF;
     --azul-destaque: #2a7ae4;
     --bg-contato: #Eaf2fd;
+    --texto-color: #464646;
 }
 
 textarea:focus,

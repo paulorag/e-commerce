@@ -26,10 +26,10 @@
     .destaque {
         background-image: url('../../img/banner_mobile.png');
         background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .banner {
-        width: 300px;
         height: 150px;
         padding: 1em;
     }
@@ -45,7 +45,7 @@
     }
 
     .banner button {
-        font-size: 14px;
+        font-size: 12px;
         height: 40px;
         width: 119px;
     }
@@ -62,20 +62,31 @@
     }
 
     .banner h1 {
-        font-size: 24px;
-        line-height: 26px;
+        font-size: 52px;
+        line-height: 51px;
     }
 
     .banner h4 {
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .destaque {
+        background-image: url('../../img/banner_desktop.png');
+    }
+
+    .banner {
+        width: 500px;
+        height: 171px;
+        padding: 9.375em 9.5em 2em 9.5em;
     }
 
     .banner button {
-        font-size: 14px;
-        height: 40px;
-        width: 119px;
+        font-size: 16px;
+        height: 51px;
+        width: 130px;
     }
 }
-
-@media screen and (min-width: 1024px) {}
