@@ -38,7 +38,7 @@
         <div class="banner">
             <h1>Abril Promocional</h1>
             <h4>Produtos selecionados com 33% de desconto</h4>
-            <button>Ver Consoles</button>
+            <a href="#consoles">Ver Consoles</a>
         </div>
     </section>
 
@@ -104,7 +104,7 @@
 
         <div class="prod-titulo">
             <div class="titulo">
-                <p>Consoles</p>
+                <p id="consoles">Consoles</p>
             </div>
             <div class="mostrar-mais">
                 <a href="pages/produtos.html">Ver Tudo <img src="assets/img/Vector.png" alt="seta"></a>
@@ -240,15 +240,18 @@
             </div>
         </div>
 
-        <div class="form">
-            <p>Fale conosco</p>
-            <div class="label-float">
-                <input type="text" name="Nome" id="Nome" class="input-nome" placeholder="">
-                <label for="Nome" class="label-nome">Nome</label>
-            </div>
-            <textarea name="mensagem" id="msg" cols="5" rows="5" placeholder="Escreva sua Mensagem"></textarea>
-            <button>Enviar Mensagem</button>
-        </div>
+        <form class="form" action="">
+            <fieldset>
+                <p>Fale conosco</p>
+                <div class="label-float">
+                    <input type="text" name="Nome" id="Nome" class="input-nome" placeholder="" maxlength="40" required>
+                    <label for="Nome" class="label-nome">Nome</label>
+                </div>
+                <textarea name="mensagem" id="msg" cols="5" rows="5" placeholder="Escreva sua Mensagem" maxlength="120"
+                    required></textarea>
+                <button>Enviar Mensagem</button>
+            </fieldset>
+        </form>
     </section>
     <footer>
         <div class="copyright">

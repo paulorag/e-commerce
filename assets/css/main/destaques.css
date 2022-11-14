@@ -15,11 +15,12 @@
     font-weight: 600;
 }
 
-.banner button {
+.banner a {
     background-color: var(--azul-destaque);
-    border: none;
     color: var(--texto-destaque);
     font-weight: 600;
+    max-width: 90px;
+    text-align: center;
 }
 
 @media screen and (min-width: 0) {
@@ -44,10 +45,9 @@
         line-height: 16px;
     }
 
-    .banner button {
+    .banner a {
         font-size: 12px;
-        height: 40px;
-        width: 119px;
+        padding: 1em 2em;
     }
 }
 
@@ -84,9 +84,8 @@
         padding: 9.375em 9.5em 2em 9.5em;
     }
 
-    .banner button {
+    .banner a {
         font-size: 16px;
-        height: 51px;
-        width: 130px;
+        max-width: 100px;
     }
 }
