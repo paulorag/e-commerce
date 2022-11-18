@@ -1,0 +1,52 @@
+{
+    "produto": [
+        {
+            "imageUrl": "assets/img/caneca_stormtrooper.png",
+            "price": "60",
+            "id": "1",
+            "alt": "Caneca com o formato da cabeça do Stormtrooper",
+            "section": "Star Wars",
+            "description": "Copo Stormtrooper"
+        },
+        {
+            "imageUrl": "assets/img/figure_darthVader.png",
+            "price": "60",
+            "id": "2",
+            "alt": "Figure do Darth Vader",
+            "section": "Star Wars",
+            "description": "Figure do Darth Vader"
+        },
+        {
+            "imageUrl": "assets/img/actionFigure_yoda.png",
+            "price": "60",
+            "id": "3",
+            "alt": "Action Figure do Mestre Yoda",
+            "section": "Star Wars",
+            "description": "Figure Mestre Yoda"
+        },
+        {
+            "imageUrl": "assets/img/actionFigure_stormtrooper.png",
+            "price": "60",
+            "id": "4",
+            "alt": "Figure Stormtrooper",
+            "section": "Star Wars",
+            "description": "Figure Stormtrooper"
+        },
+        {
+            "imageUrl": "assets/img/figure_yoda.png",
+            "price": "60",
+            "id": "5",
+            "alt": "Figure Baby Yoda",
+            "section": "Star Wars",
+            "description": "Figure Baby Yoda"
+        },
+        {
+            "imageUrl": "assets/img/actionFigure_KyloRen.png",
+            "price": "60",
+            "id": "6",
+            "alt": "Action Figure Kylo Ren",
+            "section": "Star Wars",
+            "description": "Figure Kylo Ren"
+        }
+    ]
+}

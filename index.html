@@ -28,7 +28,7 @@
                 <input i type="text" placeholder="O que desejo encontrar?">
             </div>
             <div class="login">
-                <a href="pages/login.html"><button type="submit">Login</button></a>
+                <a href="assets/pages/login.html"><button type="submit">Login</button></a>
             </div>
             <img class="lupa-mobile" src="assets/img/lupa2.png" alt="lupa">
         </nav>
@@ -48,58 +48,11 @@
                 <p>Star Wars</p>
             </div>
             <div class="mostrar-mais">
-                <a href="pages/produtos.html">Ver Tudo <img src="assets/img/Vector.png" alt="seta"></a>
+                <a href="assets/pages/produtos.html">Ver Tudo <img src="assets/img/Vector.png" alt="seta"></a>
             </div>
         </div>
-        <section class="sessao-produtos">
-            <div class="prod-holder">
-                <div class="produto">
-                    <img src="assets/img/caneca_stormtrooper.png" alt="Caneca com o formato da cabeça do Stormtrooper">
-                    <p class="descricao">Copo Stormtrooper</p>
-                    <p class="preco">$60,00</p>
-                    <a href="#">Ver Produto</a>
-                </div>
-            </div>
-            <div class="prod-holder">
-                <div class="produto">
-                    <img src="assets/img/figure_darthVader.png" alt="Figure do Darth Vader">
-                    <p class="descricao">Figure Darth Vader</p>
-                    <p class="preco">$60,00</p>
-                    <a href="#">Ver Produto</a>
-                </div>
-            </div>
-            <div class="prod-holder">
-                <div class="produto">
-                    <img src="assets/img/actionFigure_yoda.png" alt="Action Figure do Mestre Yoda">
-                    <p class="descricao">Figure Mestre Yoda</p>
-                    <p class="preco">$60,00</p>
-                    <a href="#">Ver Produto</a>
-                </div>
-            </div>
-            <div class="prod-holder">
-                <div class="produto">
-                    <img src="assets/img/actionFigure_stormtrooper.png" alt="Figure do Stormtrooper">
-                    <p class="descricao">Figure Stormtrooper</p>
-                    <p class="preco">$60,00</p>
-                    <a href="#">Ver Produto</a>
-                </div>
-            </div>
-            <div class="prod-holder desktop">
-                <div class="produto">
-                    <img src="assets/img/figure_yoda.png" alt="Figure Baby Yoda">
-                    <p class="descricao">Figure Baby Yoda</p>
-                    <p class="preco">$60,00</p>
-                    <a href="#">Ver Produto</a>
-                </div>
-            </div>
-            <div class="prod-holder desktop">
-                <div class="produto">
-                    <img src="assets/img/actionFigure_KyloRen.png" alt="Action Figure Kylo Ren">
-                    <p class="descricao">Figure Kylo Ren</p>
-                    <p class="preco">$60,00</p>
-                    <a href="#">Ver Produto</a>
-                </div>
-            </div>
+        <section class="sessao-produtos" data-product>
+
         </section>
 
         <div class="prod-titulo">
@@ -258,6 +211,7 @@
             <p>Desenvolvido por Paulo Roberto &copy;2022</p>
         </div>
     </footer>
+    <script src="controllers/produto-controller.js" type="module"></script>
 </body>
 
 </html>
